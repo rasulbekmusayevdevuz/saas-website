@@ -1,0 +1,126 @@
+:root{
+  --primary-color:#5236FF;
+  --primary2-color:#242331;
+  --secondary1-color:#f9f9f9;
+  --secondary4-color:#797979;
+  --secondary5-color:#FFFFFF;
+}
+/* Headings */
+h1{font-size: 75px;}
+h2{
+  font-size: 50px;
+}
+/* Header */
+header{
+  background-color: var(--secondary5-color);
+  position: fixed;
+  height: 100px;
+}
+nav{
+  padding:10px 20px;
+  border-radius: 30px;
+}
+nav a{
+  display: inline-flex;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary2-color);
+}
+nav a:hover{
+  color: var(--primary-color);
+}
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px 30px;
+  border:1px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+}
+.btn i{
+  margin-left: 10px;
+}
+.btn:hover,.btn-hover{
+  background-color: var(--primary-color);
+  color: var(--secondary5-color);
+}
+
+/* home-section */
+#home-section{
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(60deg, rgba(255,255,255,1) 50%,var(--primary-color) 51%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content{
+  width: 600px;
+}
+.content h1{
+  width: 600px;
+  font-weight: 800;
+  font-size: 75px;
+  line-height: 83px;
+  color: var(--primary2-color);
+}
+.content p{
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 39px;
+  color: var(--secondary4-color);
+}
+.section-title{
+  text-align: center;
+}
+.title-h1{
+  font-weight: 800;
+  font-size: 50px;
+}
+.title-p{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary4-color);
+}
+.feat-box{
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.feat-box:hover{
+  background-color: var(--secondary1-color);
+}
+.feat-box img{
+  width: 385px;
+}
+.feat-box h3{
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary2-color);
+}
+.feat-box p{
+  width: 388px;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--secondary4-color);
+  text-align: center;
+}
+.feat-box .link{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary2-color); 
+  text-decoration-line: underline;
+}
+.link:hover{
+  color: var(--primary-color);
+}
